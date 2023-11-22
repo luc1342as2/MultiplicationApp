@@ -1,0 +1,67 @@
+<!-- Print Page -->
+<!-- Lucas Ghigli -->
+<!-- -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: lightgray;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    button {
+      margin: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    #result {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <title> Print Page: </title>
+  <img src="quiz.png" alt="Quiz Image">
+  <div id="result"></div>
+  <script type="text/javascript">
+    var x;
+    x = prompt("Enter your name");
+    var y;
+    y = prompt("Enter mark1");
+    var a;
+    a = prompt("Enter mark2");
+    var b;
+    b = prompt("Enter mark3");
+  </script>
+  <button onclick="printResult()">PRINT</button>
+  <button onclick="addValues()">ADD</button>
+  <button onclick="subtractValues()">SUBTRACT</button>
+  <script>
+    function printResult() {
+      document.getElementById('result').innerHTML = x + " " + y + " " + a + " " + b;
+    }
+
+    function addValues() {
+      var sum = parseInt(y) + parseInt(a) + parseInt(b);
+      alert("Sum: " + sum);
+    }
+
+    function subtractValues() {
+      var difference = parseInt(y) - parseInt(a) - parseInt(b);
+      alert("Difference: " + difference);
+    }
+  </script>
+</body>
+
+</html>
