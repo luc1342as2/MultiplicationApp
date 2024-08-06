@@ -1,2 +1,1 @@
-# PrintInformation
-Print Information
+Multiplication App
