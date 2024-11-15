@@ -1,1 +1,3 @@
-Multiplication App
+Multiplication App in HTML, CSS, and JavaScript
+
+This project is an interactive Multiplication App built with HTML, CSS, and JavaScript, aimed at helping users practice and improve their multiplication skills. The app generates random multiplication questions, allowing users to input answers and receive immediate feedback on correctness. JavaScript powers the dynamic question generation and validation, while HTML and CSS create an approachable, user-friendly interface. This project highlights skills in JavaScript for educational applications, focusing on interactivity, responsive design, and enhancing the learning experience.
